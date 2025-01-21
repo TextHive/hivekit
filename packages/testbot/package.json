@@ -1,0 +1,29 @@
+{
+  "name": "testbot",
+  "version": "1.0.0",
+  "description": "a test harness for testing in-progress changes to hivekit",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "dev.sulaiman@icloud.com",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^4.15.0",
+    "botbuilder-ai": "^4.15.0",
+    "botbuilder-dialogs": "^4.15.0",
+    "botbuilder-adapter-facebook": "^1.0.0",
+    "botbuilder-adapter-hangouts": "^1.0.0",
+    "botbuilder-adapter-slack": "^1.0.0",
+    "botbuilder-adapter-twilio-sms": "^1.0.0",
+    "botbuilder-adapter-web": "^1.0.0",
+    "botbuilder-adapter-webex": "^1.0.0",
+    "botbuilder-dialogs-hivekit-cms": "0.0.1",
+    "botbuilder-storage-mongodb": "^0.9.5",
+    "hivekit": "^4.15.0",
+    "hivekit-plugin-cms": "^1.0.3",
+    "dotenv": "^6.2.0",
+    "express-basic-auth": "^1.1.6",
+    "restify": "^8.4.0"
+  }
+}

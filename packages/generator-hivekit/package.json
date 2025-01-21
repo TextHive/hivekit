@@ -1,0 +1,31 @@
+{
+  "name": "generator-hivekit",
+  "version": "4.15.0",
+  "description": "Automatically generate a Hivekit application template for any supported platform",
+  "scripts": {
+    "pack": "npm pack"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "hivekit",
+    "bots",
+    "chatbots"
+  ],
+  "author": "Microsoft Corp.",
+  "license": "MIT",
+  "homepage": "https://github.com/texthive/hivekit/blob/master/packages/generator-hivekit#readme",
+  "bugs": {
+    "url": "https://github.com/texthive/hivekit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/texthive/hivekit.git"
+  },
+  "dependencies": {
+    "yeoman-generator": "5.6.1",
+    "underscore": "1.13.1"
+  }
+}
